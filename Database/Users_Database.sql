@@ -1,0 +1,7 @@
+CREATE TABLE "Users" (
+	"id"	INTEGER,
+	"name"	TEXT NOT NULL,
+	"age"	INTEGER NOT NULL,
+	"avatar"	TEXT NOT NULL,
+	PRIMARY KEY("id" AUTOINCREMENT)
+)
